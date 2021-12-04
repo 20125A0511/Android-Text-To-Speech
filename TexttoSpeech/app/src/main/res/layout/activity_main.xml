@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:transitionGroup="true"
+    android:background="@color/royalblue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#D59D9D"
+        android:fontFamily="@font/allan_bold"
+        android:text="Text To Speech"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="35dp" />
+    <ImageView
+        android:layout_below="@id/tv1"
+        android:id="@+id/iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconspeaker"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan_bold"
+        android:layout_below="@id/iv1"
+        android:layout_marginTop="46dp"
+        android:hint="Enter Text here:"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff7aff10"
+        android:textColorHint="#ffff23d1"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:text="Click here"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"/>
+
+
+
+</RelativeLayout>
